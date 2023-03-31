@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    position: relative;
+    margin-left: 0.5em;
+}
+
+li:before {
+    content: "•";
+    color: #1A73E8;
+    position: absolute;
+    left: -1em;
+}
+
+li:nth-child(1) {
+    margin-left: 0;
+}
+
+h5:hover {
+    text-decoration: underline;
+}
+
+.book {
+    text-decoration: none;
+}
+
+.book:hover {
+    text-decoration: underline;
+}
+
+h6:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    line-height: 0.9rem;
+}
+
+.card-title {
+    font-weight: 400;
+    font-family: 'Roboto', 'RobotoDraft', Helvetica, Arial, sans-serif;
+}
+
+
+#hide {
+    transition-duration: 2s;
+}
